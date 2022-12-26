@@ -36,14 +36,16 @@ const USER_CONFIG = {
         },
         {
           type: '*生日', name: '辣条生日', year: '2022', date: '11-29',
+        },
+        {
+          type: '节日', name: '结婚', year: '2023', date: '05-01',
         }
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2014-03-16' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2023-05-01' },
+        { keyword: 'love_day', date: '2014-03-16' }
+        
       ],
     },
   ],
